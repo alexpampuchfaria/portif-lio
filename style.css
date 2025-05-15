@@ -1,0 +1,63 @@
+header { 
+    text-align:  center;
+    background-color: rgb(255, 241, 179);
+    padding: 100px;
+
+
+
+}
+h1{
+    font-size:30px;
+    font-weight: bold;
+
+}
+main{
+    background-color: rgba(8, 186, 186, 0.289);
+    text-align: center;
+    padding:200px;
+    margin: auto;
+
+}
+h2{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+li{
+    margin:10px auto;
+    padding:30px;
+    background-color: rgb(255, 239, 150);
+    width: 50%;
+    border-radius: 20px;
+    color:black;
+}
+footer{
+    background-color: rgb(255, 241, 179);
+    text-align: center;
+    padding:50px;
+}
+a{
+    text-decoration: double;
+    text-align: center;
+
+}
+.produtos li:hover {
+    color:rgba(255, 0, 0, 0.534);   
+
+}
+.produtos li:active {
+    border-color: darkgreen;
+
+}
+.produtos li:hover {
+    color:rgba(255, 0, 0, 0.534);   
+
+}
+.produtos li:active {
+    border-color: darkgreen;
+
+}
+.tata li:hover h1{
+  
+    
+}
