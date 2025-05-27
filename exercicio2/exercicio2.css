@@ -2,12 +2,15 @@ button {
     text-align: center;
     padding: 30px 100px 30px;
     font-weight:bold;
-    margin: 100px;
+    margin: 54px;
 }
 h1{
     text-align: center;
     font-size: 100px;
 }
 main  {
-    background-color:rgb(255, 241, 17);
+    background-color:rgb(255, 241, 17);  
+}
+header{
+    background-color: rgb(141, 237, 237);
 }
