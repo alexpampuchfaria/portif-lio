@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(233, 228, 149);
+}
+h1{
+    text-align: center;
+    padding: 100px 100px 100px;
+}
+button {
+      padding: 30px 500px 30px;
+    font-weight:bold;
+    margin: 150px;
+}
+main{
+    text-align: center;
+    padding: 50px 100px 50px;
+}
+header{
+    background-color: lightskyblue;
+    padding: 100px 100px 100px;
+
+}
+footer{
+    background-color: lightskyblue;
+    padding:100px 100px 100px;
+}
