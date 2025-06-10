@@ -1,0 +1,13 @@
+body{
+    background-color:rgba(8, 186, 186, 0.289) ;
+
+}
+h1 {
+    text-align: center;
+    padding: 100px 30px 100px;
+}
+button{
+    padding: 40px 80px 40px;
+    margin: 100px;
+    text-align: center;s
+}
