@@ -4,10 +4,12 @@ body{
 }
 h1 {
     text-align: center;
-    padding: 100px 30px 100px;
+    padding: 80px 30px 50px;
 }
 button{
-    padding: 40px 80px 40px;
-    margin: 100px;
-    text-align: center;s
+    text-align: center;
+    padding: 30px 750px 30px;
+    font-weight:bold;
+    margin: 150px;
+
 }

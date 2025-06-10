@@ -7,13 +7,13 @@ let maiormenor;
 num1 = Number(window.prompt("digite um numero"));
 num2 = Number(window.prompt("digite outro numero"));
  
-resultado = num1 > num2;
+resultado = (num1,num2);
 
 
 if(maiormenor = num1 > num2){
-    alert("o número " + maiormenor +" maior")
-}else {
-    alert("o número " + maiormenor + " menor")
+    alert("o número " + num1 +" maior")
+}else{ 
+    alert("o número " + num2 + " maior")
 }
 
 alert(resultado)
