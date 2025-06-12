@@ -5,9 +5,9 @@ let mostraHTML = document.getElementById("mostraHTML");
 
 function contador(){
   
-   cliques++;
-
+   cliques = cliques + 1;
     //tem varios jeitos de fazer o msm resultado  exemplo:
+    //cliques++;
     // cliques += 1;
     // cliques = cliques + 1;//
 
