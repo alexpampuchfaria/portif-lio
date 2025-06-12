@@ -11,11 +11,17 @@ function contador(){
     // cliques += 1;
     // cliques = cliques + 1;//
 
-
-
-
     //alterar o valor do html pra motrar a variavel cliques//
     mostraHTML.innerHTML = `<p> numeros de cliques: ${cliques} </p>`;
     console.log(cliques);
+    
+}
+
+function zerar(){
+
+    cliques = 0;
+
+     mostraHTML.innerHTML = `<p> numeros de cliques: ${cliques} </p>`;
+     console.log(cliques);
     
 }
