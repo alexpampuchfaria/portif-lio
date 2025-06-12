@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(255, 199, 56);
+}
+header{
+    background-color: rgba(113, 191, 255, 0.664);
+    padding: 50px 100px 40px;
+}
+h1{
+    text-align: center;
+    color:rgb(255, 212, 19);
+}
+button{
+        padding: 20px 100px 20px; 
+}
+main{
+    padding: 30px 100px 30px;
+    text-align: center;
+}
