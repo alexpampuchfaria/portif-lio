@@ -1,31 +1,17 @@
 let mostraHTML = document.getElementById("mostraHTML");
-let numero = 0
-let numadiv = 0
+let numero = parseInt(Math.random() * 101);
 
-numero = parseInt(Math.random() * 101);
+function adivinha() {
+ let numadiv = Number(window.prompt("Digite um número de 1 a 100"));
 
-function adivinha(){
-    let frase
+ mostraHTML.innerHTML += `<p>Você escolheu ${numadiv}.</p>`;
+ console.log("Número secreto:", numero); // útil para testes
 
-
-    numadiv = Number(window.prompt("Digite um numero de 1 a 100"));
-
-    
-
-    frase = mostraHTML.innerHTML += `<p>Voce escolheu ${numadiv}.</p>`
-
-    console.log(numero);
-
-    if(numadiv > numero){
-        mostraHTML.innerHTML = `<p>Voce escolheu ${num_adiv}. meu numero é MAIOR</p>`
-    }else{
-        mostraHTML.innerHTML = `<p>Voce escolheu ${num_adiv}. meu numero é MENOR</p>`
+    if (numadiv > numero) {
+        mostraHTML.innerHTML += `<p>Meu número é MENOR que ${numadiv}.</p>`;
+    } else if (numadiv < numero) {
+        mostraHTML.innerHTML += `<p>Meu número é MAIOR que ${numadiv}.</p>`;
+    } else {
+        mostraHTML.innerHTML += `<p><strong>Parabéns! Você acertou o número ${numero}!</strong></p>`;
     }
-
-    if(numero == numadiv) {
-         mostraHTML.innerHTML = '<p>Parabens voce acertou</p>'
-    }
-
-    
-
-} 
+}
